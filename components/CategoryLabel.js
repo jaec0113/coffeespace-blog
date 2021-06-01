@@ -5,6 +5,7 @@ export default function CategoryLabel({ children }) {
     커피책: "yellow",
     원두: "brown",
     카페: "blue",
+    커피물품: "purple",
     레시피: "green",
     기타: "orange",
   }
