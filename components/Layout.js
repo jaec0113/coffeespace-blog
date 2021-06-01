@@ -1,5 +1,6 @@
 import Head from "next/head"
-import Header from "../components/Header"
+import Header from "@/components/Header"
+import Search from "@/components/Search"
 
 export default function Layout({ title, keywords, descriptions, children }) {
   return (
@@ -11,6 +12,7 @@ export default function Layout({ title, keywords, descriptions, children }) {
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <Header />
+      <Search />
       <main className='container mx-auto my-7'>{children}</main>
     </div>
   )
