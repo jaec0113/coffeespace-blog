@@ -1,6 +1,6 @@
 ---
 title: 'The Best of Jimseven'
-date: '5월13일2021년'
+date: '2021-04-25'
 excerpt: 'Throughout the global boom in specialty coffee, world-renowned expert James Hoffmann...'
 cover_image: '/images/best-jimseven.jpg'
 category: '커피책'

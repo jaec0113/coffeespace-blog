@@ -1,6 +1,6 @@
 ---
 title: '커피로스팅'
-date: '3월24일2021년'
+date: '2021-03-24'
 excerpt: '커피콩은 커피나무 열매에서 얻어낸 씨앗이다.'
 cover_image: '/images/coffee-roasting.jpg'
 category: '커피책'

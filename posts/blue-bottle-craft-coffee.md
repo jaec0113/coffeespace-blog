@@ -1,6 +1,6 @@
 ---
 title: '블루보틀크래프트커피'
-date: '5월28일2021년'
+date: '2021-05-15'
 excerpt: 'I have had opinions about coffee ever since I can remember.'
 cover_image: '/images/blue-bottle-craft-coffee.jpg'
 category: '커피책'

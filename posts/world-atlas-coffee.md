@@ -1,6 +1,6 @@
 ---
 title: 'The World Atlas of Coffee'
-date: '5월20일2021년'
+date: '2021-02-18'
 excerpt: 'Coffee has never been better than it is today.'
 cover_image: '/images/world-atlas-coffee.jpg'
 category: '커피책'
