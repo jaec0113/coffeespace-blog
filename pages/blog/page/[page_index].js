@@ -2,11 +2,12 @@ import fs from "fs"
 import path from "path"
 import Link from "next/link"
 import matter from "gray-matter"
-import Layout from "../components/Layout"
-import Post from "../components/Post"
-import { sortByDate } from "../utils"
+import Layout from "../../../components/Layout"
+import Post from "../../../components/Post"
+import { sortByDate } from "../../../utils"
+import { POSTS_PER_PAGE } from "../../../config/index"
 
-export default function HomePage({ posts }) {
+export default function BlogPage({ posts }) {
   return (
     <Layout>
       <h1 className='text-5xl border-b-4 p-5 font-bold'>Latest Posts</h1>
@@ -16,13 +17,27 @@ export default function HomePage({ posts }) {
           <Post key={index} post={post} />
         ))}
       </div>
-      <Link href='/blog'>
-        <a className='block text-center border border-gray-500 text-gray-800 rounded-md py-4 my-5 transition duration-500 ease select-none hover:text-white hover:bg-gray-900 focus:outline-none focus:shadow-outline w-full'>
-          포스트 모두 보기
-        </a>
-      </Link>
     </Layout>
   )
+}
+
+export async function getStaticPaths() {
+  const files = fs.readdirSync(path.join("posts"))
+
+  const numPages = Math.ceil(files.length / POSTS_PER_PAGE)
+
+  let paths = []
+
+  for (let i = 1; i <= numPages; i++) {
+    paths.push({
+      params: { page_index: i.toString() },
+    })
+  }
+
+  return {
+    paths,
+    fallback: false,
+  }
 }
 
 export async function getStaticProps() {
@@ -45,7 +60,7 @@ export async function getStaticProps() {
 
   return {
     props: {
-      posts: posts.sort(sortByDate).slice(0, 5),
+      posts: posts.sort(sortByDate),
     },
   }
 }

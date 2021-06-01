@@ -1,9 +1,5 @@
-import Layout from "../../components/Layout"
+import { getStaticProps } from "./page/[page_index]"
+import BlogPage from "./page/[page_index]"
 
-export default function BlogHomePage() {
-  return (
-    <Layout title='CoffeeSpace Blog Home'>
-      <h1>커피스페이스 블로그 환영합니다!</h1>
-    </Layout>
-  )
-}
+export { getStaticProps }
+export default BlogPage
