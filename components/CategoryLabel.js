@@ -8,6 +8,7 @@ export default function CategoryLabel({ children }) {
     커피도구: "purple",
     레시피: "green",
     기타: "orange",
+    음료: "red",
   }
 
   return (

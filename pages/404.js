@@ -13,11 +13,14 @@ export default function NotFoundPage() {
           className='bg-gray-800 rounded-2xl'
         />
 
-        <h1 className='text-6xl my-5'>아이고!</h1>
-
+        <h1 className='text-6xl my-5'>아이고! Uh oh!</h1>
+        <br />
         <h2 className='text-4xl text-gray-400 mb-5'>
-          이 커피스페이스는 없어 보입니다...
+          이 커피스페이스는 없어 보입니다... <br />
+          Sorry, that coffee space doesn't seem to exist...
         </h2>
+        <br />
+        <Link href='/'>Go Back Home</Link>
       </div>
     </Layout>
   )

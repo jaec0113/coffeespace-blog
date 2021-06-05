@@ -6,6 +6,7 @@ import marked from "marked"
 import matter from "gray-matter"
 import Layout from "@/components/Layout"
 import CategoryLabel from "@/components/CategoryLabel"
+import AboutNote from "@/components/AboutNote"
 
 export default function PostPage({
   frontmatter: { title, category, date, cover_image, author },
@@ -36,6 +37,7 @@ export default function PostPage({
         <div className='blog-text mt-2'>
           <div dangerouslySetInnerHTML={{ __html: marked(content) }}></div>
         </div>
+        <AboutNote />
       </div>
     </Layout>
   )
