@@ -18,12 +18,17 @@ export default function Header() {
         </Link>
         <nav className='flex flex-wrap md:w-4/5 items-center justify-end text-base md:ml-auto'>
           <Link href='/blog'>
-            <a className='mx-5 cursor-pointer uppercase hover:text-indigo-300'>
+            <a className='mx-5 cursor-pointer uppercase hover:text-black'>
               Blog
             </a>
           </Link>
+          <Link href='/favorites'>
+            <a className='mx-5 cursor-pointer uppercase hover:text-black'>
+              Favorites
+            </a>
+          </Link>
           <Link href='/about'>
-            <a className='mx-5 cursor-pointer uppercase hover:text-indigo-300'>
+            <a className='mx-5 cursor-pointer uppercase hover:text-black'>
               About
             </a>
           </Link>
