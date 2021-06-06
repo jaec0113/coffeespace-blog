@@ -1,9 +1,13 @@
+import Link from "next/link"
 import Layout from "@/components/Layout"
+import { FaInstagramSquare, FaTwitterSquare, FaLinkedin } from "react-icons/fa"
 
 export default function AboutPage() {
   return (
     <Layout title='About CoffeeSpace'>
-      <h1 className='text-5xl border-b-4 pb-5 font-bold'>About CoffeeSpace</h1>
+      <h1 className='text-5xl border-b-4 pb-5 font-bold text-center'>
+        About CoffeeSpace
+      </h1>
       <div className='bg-white shadow-md rounded-lg px-10 py-6 mt-6'>
         <h3 className='text-2xl mb-5'>커피스페이스블로그</h3>
         <p className='mb-3'>
@@ -27,6 +31,24 @@ export default function AboutPage() {
           연습하고 싶어요. 그래서 아마도 말실순나 이상한 표현을 쓴다면 좀 봐
           주세요~ 미리 사과 드릴게요!
         </p>
+        <br />
+        <div className='flex content-between'>
+          <Link href='https://instagram.com/jaehyuk_tedd0113'>
+            <a>
+              <FaInstagramSquare size={42} />
+            </a>
+          </Link>
+          <Link href='https://twitter.com/jaec0113'>
+            <a>
+              <FaTwitterSquare size={42} />
+            </a>
+          </Link>
+          <Link href='https://www.linkedin.com/in/tedd-chee-0113'>
+            <a>
+              <FaLinkedin size={42} />
+            </a>
+          </Link>
+        </div>
         <br />
         <h3 className='text-2xl mb-5'>Coffeespace Blog</h3>
         <p className='mb-3'>
