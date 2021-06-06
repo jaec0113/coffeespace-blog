@@ -6,7 +6,7 @@ export default (req, res) => {
   let posts
 
   if (process.env.NODE_ENV === "production") {
-    posts = require("../../cache/data").posts
+    posts = require("../../cache/data.js").posts
   } else {
     const files = fs.readdirSync(path.join("posts"))
 
