@@ -26,9 +26,15 @@ export default function FavoritesPage() {
         </ul>
         <h3 className='text-2xl mb-5'>Roasters</h3>
         <ul className='mb-3 list-disc'>
-          <Link href='https://instagram.com/be_brave_korea'>
+          <Link href='https://instagram.com/watocoffee'>
             <a>
               <li>비브레이브 (한국) - Be Brave (South Korea)</li>
+            </a>
+          </Link>
+
+          <Link href='https://instagram.com/be_brave_korea'>
+            <a>
+              <li>와토커피 (한국) - Wato Coffee (South Korea)</li>
             </a>
           </Link>
 
