@@ -7,7 +7,7 @@ export default function AboutNote() {
         커피아재에 대해 / About Coffee Aje
       </h4>
       <div className='flex'>
-        <Image src='/logo.png' alt='coffee aje logo' width={75} height={50} />
+        <Image src='/logo.png' alt='coffee aje logo' width={50} height={50} />
         <p className='ml-10 text-gray-600'>
           미국에 살고 한국에 태어난 커피를 좋아하는 아저씨 커피아재입니다.{" "}
           <br />

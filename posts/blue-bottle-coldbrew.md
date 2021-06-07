@@ -1,6 +1,6 @@
 ---
 title: '블루보틀 콜드브루캔 Blue Bottle Cold Brew Can'
-date: '21-06-04'
+date: '2021-06-04'
 excerpt: '캔은 귀여운데 맛은 어땠을까? '
 cover_image: '/images/blue-bottle-cans.jpg'
 category: '음료'
