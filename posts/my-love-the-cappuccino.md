@@ -7,7 +7,7 @@ category: '카페'
 author: '커피아재'
 
 ---
-![Be Brave Cappuccino](/images/cappuccino/bebrave.jpg "Be Brave's classic cappuccino")
+![Be Brave Cappuccino](/images/cappuccino/cappuccino-bebrave.jpg "Be Brave's classic cappuccino")
 # 카푸치노
 
 저의 첫 '팬시한' 커피 경험은 아마도 많은 90년대 미국에 사는 사람처럼 바로 카푸치노였어요. 그때 카푸치노는 완전 고급 같은 음료였어요 (저한테). 카푸치노를 마시는 사람들은 뉴욕 같은 곳에 살고 대학교, 금늉, 등 같은 일을 했어요. '일반' 사람들은 큰 주황이나 초록색 림을 가지고 있는 커피포트에 제공한 블랙커피를 마셨어요. 이 것은 중요하지 않지만 그냥 저의 가장 일찍 카푸치노 추억이에요. 
@@ -25,7 +25,7 @@ author: '커피아재'
 *당연히 다음 부분은 저의 개인 생각이에요. 제가 바리스타나 카페 사장은 어떤 과정을 쓰거나 어떻게 레시피를 정하는 것을 전혀 몰라요. 그리고 개인 선호도 큰 역할을 할 수 있어요.*
 
 일단 카푸치노가 에스프레소 베이스로 만든 음료니까 당연히 에스프레소를 잘 뽑아야 해요. 저는 개인적으로 싱글오리진 에스프레소를 좋아하는데 블랜드를 들어간다면 큰 문제 아니에요. 카푸치노가 커피 맛을 나야 한다고 생각해요. 제가 우유 맛이 많이 난 카푸치노를 마신다면 '아 에스프레소가 아마도 맛 없다'고 생각해요. 그래서 우유가 좀 많이 넣었어요. 사실은 다를 수 있겠지만 저는 그렇게 생각해요. 그리고 그냥 우유 맛이 나면 왜 카페에 가서 카푸치노를 주문해요? 그냥 집에서 우유를 마시면 되겠죠. 그래서 커피 맛 좀 나야 해요. 마지막 중요한 포인트는 온도예요. 카푸치노가 거품을 좀 있어야 해서 안 좋은 우유 스티밍 테그닉을 라떼나 플랫와이트보다 더 쉽게 볼 수 있을 것 같아요. 거품/우유는 좀 크리미하고  따뜻해야 죠. 가끔 본 문제는 우유가 너무 뜨겁거나 거품이 너무 커요. 아마도 바리스타는 거품 만들기 위해 너무 오래 스티밍을 해서 우유를 탔어요.
-[Wato Coffee Cappuccino](../public/images/cappuccino/cappuccino-wato.jpg "Wato Coffee's cappuccino")
+![Wato Coffee Cappuccino](/images/cappuccino/cappuccino-wato.jpg "Wato Coffee's cappuccino")
 ## 저의 이상형 카푸치노
 
 저의 이상형 카푸치노 레시피를 없지만 맛있는 카푸치노의 키 포인트를 쓸게요.
@@ -37,7 +37,7 @@ author: '커피아재'
 ## 팀 카푸치노
 
  이런 느낌이 나오는지 잘 모르겠지만 제가 커피 우유 음료 중에 카푸치노를 너무 좋아해요. 라떼는 아이스로 좋은데 플랫와이트도 괜찮을 수 있어요 (전제적으로 좀 별로한 플랫와이트를 많이 마셨어요). 하지만 잘 만들면 카푸치노는 최고예요. 
-![Flat 4 Coffee Roasters Cappuccino](../public/images/cappuccino/cappuccino-flat4.jpg "Flat 4 Coffee's cappuccino")
+![Flat 4 Coffee Roasters Cappuccino](/images/cappuccino/cappuccino-flat4.jpg "Flat 4 Coffee's cappuccino")
 # The Cappuccino
 
 My first experience, probably like a lot of people in America living/growing up in the 90's, with 'fancy' coffee was the cappuccino. It was this odd sort of symbol of elitism and high culture - at least to me. A drink for people who lived in places like New York City or who worked in industries like higher education, finance, and the like. 'Regular' folk just drank black coffee served from giant pots with green or orange rims and maybe put in a little sugar or cream. This is all by the by, but it's my earliest recollection of my experience with the idea of the cappuccino.
@@ -55,7 +55,7 @@ Why the cappuccino? Well because to me it requires the widest range of barista s
 *These are just my personal opinions as a consumer, I have no idea regarding the technical decisions a barista/cafe owner may make when deciding their recipe and acknowledge that personal preferece can play a significant role.*
 
 First off, since it has an espresso base, a decent espresso shot is needed (I also prefer single origin espressos as a base rather than a blend). As an extension of this, I think cappuccinos should have a fairly strong coffee taste to it and tend to think that cappuccinos that are 'milky' are likely to cover for iffy espressos. The final big test for me is temperature. Since cappuccinos should have some foam on them, poor milk steaming/frothing techniques tend to be more apparent than in lattes or flat whites. It should be creamy and not too bubbly, warm but not hot. This latter point it probably the most frequent issue I have with 'bad' cappuccinos. They are incredibly hot. I imagine because in order to get the amount of foam they want they steam the milk too long and scald the milk in the process. 
-[Yoyomoomoon Cappuccino](../public/images/cappuccino/cappuccino-yoyoma.jpg "Yoyomoomoon's cappuccino has plenty of foam")
+![Yoyomoomoon Cappuccino](/images/cappuccino/cappuccino-yoyoma.jpg "Yoyomoomoon's cappuccino has plenty of foam")
 ## My Ideal Cappuccino
 
 I don't have an exact recipe for my ideal cappuccino, but I can roughly describe what I would hope to get from a great cappuccino.
@@ -67,4 +67,4 @@ Overall it should be a well balanced drink. It certainly shouldn't have any 'har
 ## Team Cappuccino
 
 I'm not sure if this post comes across this way, but I am overwhelmingly pro-cappuccino in terms of my preference for milk drinks in cafes. Lattes are nice for iced drinks and flat whites can be decent at times (I find them incredibly hit or miss), but nothing beats a well made cappuccino in my opinion. Three cheers for the cappuccino!
-[Cappuccino](../public/images/cappuccino/cappuccino-seogwipo.jpg "cappuccino with thick foam")
+![Cappuccino](/images/cappuccino/cappuccino-seogwipo.jpg "cappuccino with thick foam")
