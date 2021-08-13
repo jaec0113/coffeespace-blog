@@ -1,13 +1,20 @@
 import Link from "next/link"
+import Head from "next/head"
 import Layout from "@/components/Layout"
 
 export default function FavoritesPage() {
   return (
-    <Layout
-      title='Coffeespace Favorites'
-      descriptions="커피스페이스의 지금 가장 좋아하는 것입니다. Coffeespace's current coffee favorites."
-      keywords='favorites, coffee favorites, coffeespace, blog, coffee blog, coffee aje, 커피스페이스, 블로그, 커피블로그, 커피아제, 가장 좋아하는 커피 것들'
-    >
+    <Layout title='Coffeespace Favorites'>
+      <Head>
+        <meta
+          name='descriptions'
+          content="커피스페이스의 지금 가장 좋아하는 것입니다. Coffeespace's current coffee favorites."
+        />
+        <meta
+          name='keywords'
+          content='favorites, coffee favorites, coffeespace, blog, coffee blog, coffee aje, 커피스페이스, 블로그, 커피블로그, 커피아제, 가장 좋아하는 커피 것들'
+        />
+      </Head>
       <h1 className='text-5xl border-b-4 pb-5 font-bold text-center'>
         제일 좋아하는 커피 것 <br /> My Coffee Favorites
       </h1>

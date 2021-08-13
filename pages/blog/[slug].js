@@ -2,6 +2,7 @@ import fs from "fs"
 import path from "path"
 import Link from "next/link"
 import Image from "next/image"
+import Head from "next/head"
 import marked from "marked"
 import matter from "gray-matter"
 import Layout from "@/components/Layout"
@@ -14,11 +15,14 @@ export default function PostPage({
   slug,
 }) {
   return (
-    <Layout
-      title={title}
-      descriptions={`My thoughts on ${title}`}
-      keywords={`${title}, ${category}, coffeespace, coffeespace blog, blog, coffee blog, coffee, 커피스페이스, 블로그, 커피스페이스 블로그, 커피, 커피블로그`}
-    >
+    <Layout title={title}>
+      <Head>
+        <meta name='descriptions' content={`My thoughts on ${title}`} />
+        <meta
+          name='keywords'
+          content={`${title}, ${category}, coffeespace, coffeespace blog, blog, coffee blog, coffee, 커피스페이스, 블로그, 커피스페이스 블로그, 커피, 커피블로그`}
+        />
+      </Head>
       <Link href='/blog'>Go Back</Link>
       <div className='w-full px-10 py-6 bg-white rounded-lg shadow-md mt-6'>
         <div className='flex justify-between items-center mt-4'>

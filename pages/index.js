@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Head from "next/head"
 import Layout from "@/components/Layout"
 import Post from "@/components/Post"
 import { getPosts } from "@/lib/posts"
@@ -6,6 +7,16 @@ import { getPosts } from "@/lib/posts"
 export default function HomePage({ posts }) {
   return (
     <Layout>
+      <Head>
+        <meta
+          name='descriptions'
+          content='그냥 커피를 사랑하는 사람의 커피 블로그입니다. A blog about coffee from a coffee enthusiast.'
+        />
+        <meta
+          name='keywords'
+          content='blog, coffee blog, coffeespace, coffeespace blog, coffee, coffee aje, 블로그, 커피블로그, 커피스페이스, 커피스페이스블로그, 커피, 커피아제'
+        />
+      </Head>
       <h1 className='text-5xl border-b-4 p-5 font-bold text-gray-800 text-center'>
         Latest Posts
       </h1>
