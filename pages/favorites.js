@@ -3,7 +3,11 @@ import Layout from "@/components/Layout"
 
 export default function FavoritesPage() {
   return (
-    <Layout title='Coffeespace Favorites'>
+    <Layout
+      title='Coffeespace Favorites'
+      descriptions="커피스페이스의 지금 가장 좋아하는 것입니다. Coffeespace's current coffee favorites."
+      keywords='favorites, coffee favorites, coffeespace, blog, coffee blog, coffee aje, 커피스페이스, 블로그, 커피블로그, 커피아제, 가장 좋아하는 커피 것들'
+    >
       <h1 className='text-5xl border-b-4 pb-5 font-bold text-center'>
         제일 좋아하는 커피 것 <br /> My Coffee Favorites
       </h1>
@@ -81,6 +85,18 @@ export default function FavoritesPage() {
           <Link href='https://www.youtube.com/channel/UC85mXeWRaycnlFmrhBdaAlg'>
             <a>
               <li>남자커피 (한국어) - Namja Coffee (Korean)</li>
+            </a>
+          </Link>
+
+          <Link href='https://www.youtube.com/channel/UCDPpzXAYvwJifbfKYxdjZUA'>
+            <a>
+              <li>박근하 (한국어) - Park Geun-ha (Korean)</li>
+            </a>
+          </Link>
+
+          <Link href='https://www.youtube.com/channel/UC5Oq6jxwXcIHMAnKvOluWcg'>
+            <a>
+              <li>안스타 (한국어) - Ahn Star (Korean)</li>
             </a>
           </Link>
         </ul>

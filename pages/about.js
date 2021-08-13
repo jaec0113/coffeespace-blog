@@ -4,7 +4,11 @@ import { FaInstagramSquare, FaTwitterSquare, FaLinkedin } from "react-icons/fa"
 
 export default function AboutPage() {
   return (
-    <Layout title='About CoffeeSpace'>
+    <Layout
+      title='About CoffeeSpace'
+      descriptions='커피스페이스에 대해 이야기입니다. About the Coffeespace blog.'
+      keywords='about, coffeespace, blog, coffee blog, coffee aje, 커피스페이스, 블로그, 커피블로그, 커피아제'
+    >
       <h1 className='text-5xl border-b-4 pb-5 font-bold text-center'>
         About CoffeeSpace
       </h1>
