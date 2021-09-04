@@ -2,7 +2,7 @@
 title: 'Coffee Variety (book review)'
 date: '2021-08-16'
 excerpt: '커피 품종에 대해 관심을 가지고 있으면 꼭 이 책을 읽어야 한다'
-cover_image: ''
+cover_image: '/images/coffee-varieties.jpg'
 category: '책'
 author: '커피아제'
 
