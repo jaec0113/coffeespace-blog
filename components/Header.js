@@ -32,11 +32,6 @@ export default function Header() {
               About
             </a>
           </Link>
-          <Link href='/mycoffee'>
-            <a className='mx-5 cursor-pointer uppercase hover:text-black'>
-              My Coffee's
-            </a>
-          </Link>
         </nav>
       </div>
     </header>
